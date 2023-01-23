@@ -1,0 +1,112 @@
+.header{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-family: 8px Script ;
+
+}
+
+.photo{
+	height: 50px;
+	hue-rotate: #70c55b;
+	display: inline-flex;
+	margin-bottom: 10px;
+	/*align-items: center;*/
+
+}
+
+
+body{
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+	/*display: flex;
+	align-content: center;*/
+}
+.box_1{
+	background-color: #70c55b;
+	width: 100vw; 
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.box_2{
+	background-color: #e5ebe6a4;
+	width: 600px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.box_3{
+	justify-content: center;
+	align-content: center;
+	
+}
+/*label{
+	display: flex;
+	flex-wrap: wrap;
+}*/
+form{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	/*cursor: pointer;*/
+}
+
+#bloco_1{
+	background-color: #e5ebe6a4;
+	border: none;
+	height: 7vh;
+	width: 30vw;
+	/*box-shadow: 10px 5px 5px black;*/
+	cursor: pointer;
+}
+#bloco_2{
+	background-color:#e5ebe6a4;
+	border: none;
+	height: 7vh;
+	width: 30vw;
+	/*box-shadow: 10px 5px 5px black*/
+	cursor: pointer;
+}
+input{
+	/*display: flex;*/
+	/*text-align: center;*/
+	/*cursor: pointer;*/
+
+}
+button{
+	background: #70c55b;
+	color: white;
+	height: 8vh;
+	width: 30vw;
+	font-family: Segoe UI;
+	display: inline-block;
+	align-items: center;
+
+	/*flex-wrap: wrap;*/
+	box-shadow: 10px 5px 5px black;
+	text-shadow: 2px 2px 2px  rgba(0, 0, 0, 1.0);
+
+}
+
+p{
+	color: lightslategrey;
+	display: flex;
+	text-align: center;
+	cursor: default;
+}
+
+a{
+	text-decoration: none;
+}
+
